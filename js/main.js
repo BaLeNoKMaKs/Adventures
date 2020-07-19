@@ -1041,4 +1041,59 @@ if ($('.team__slider').length > 0) {
 		}]
 	});
 };
+
+// scrollreveal (АНИМАЦИЯ)
+ScrollReveal().reveal('.animate-left', {
+	delay: 200,
+	distance: '200px',
+	duration: 500,
+	opacity: 0,
+	origin: 'left',
+	desktop: true,
+	mobile: false,
+	reset: false,
+	viewFactor: 0.2,
+});
+ScrollReveal().reveal('.animate-right', {
+	delay: 200,
+	distance: '200px',
+	duration: 500,
+	opacity: 0,
+	origin: 'right',
+	desktop: true,
+	mobile: false,
+	reset: false,
+	viewFactor: 0.2,
+});
+ScrollReveal().reveal('.animate-fade', {
+	delay: 200,
+	duration: 500,
+	opacity: 0,
+	desktop: true,
+	mobile: false,
+	reset: false,
+	viewFactor: 0.2,
+});
+ScrollReveal().reveal('.animate-bottom', {
+	delay: 200,
+	distance: '200px',
+	duration: 500,
+	opacity: 0,
+	origin: 'bottom',
+	desktop: true,
+	mobile: false,
+	reset: false,
+	viewFactor: 0.2,
+});
+ScrollReveal().reveal('.animate-top', {
+	delay: 200,
+	distance: '200px',
+	duration: 500,
+	opacity: 0,
+	origin: 'top',
+	desktop: true,
+	mobile: false,
+	reset: false,
+	viewFactor: 0.2,
+});;
 });;
