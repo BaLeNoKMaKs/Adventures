@@ -1,6 +1,3 @@
-Adventures layout
-------------------
-
 Description
 -----------
 A small site with cool animation and a working gallery. HTML, CSS, JS, GULP
